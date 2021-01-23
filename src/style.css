@@ -1,0 +1,56 @@
+body {
+   background-color: #dac6c1;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.book-list{
+ margin-top: 5rem;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
+.image {
+  height: 250px;
+  width: 180px;
+  margin-bottom: 1rem;
+  -moz-asx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateX(0);
+  cursor: pointer;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  transition : transform 0.25s ease-out;
+}
+
+.book p {
+ text-transform: capitalize;
+}
+
+.book button {
+ margin-right: 0.5rem;
+ outline: none;
+ border: 1.5px solid #fec89a;
+ background-color: white;
+ border-radius: 5px;
+ -moz-asx-font-smoothing: grayscale;
+ backface-visibility: hidden;
+ transform: translateX(0);
+}
+
+.book button:hover {
+  background-color: #fec89a;
+  border: 1.5px solid white;
+  transform: scale(1.05);
+  transition : transform 0.25s ease-out;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+}
