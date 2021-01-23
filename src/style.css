@@ -32,7 +32,8 @@ h1, p {
 
 .search-icon {
   /* border: 1px solid #fec89a; */
-  padding: 0.36rem 1rem;
+  /* padding: 0.36rem 1rem; */
+  padding: 0.63rem 1rem;
   align-self: center;
   margin-top: 1rem;
   color: white;
